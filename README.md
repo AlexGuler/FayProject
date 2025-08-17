@@ -7,6 +7,7 @@ A small Android app that implements login and an appointments experience using J
 ## Demo
 
 Url: https://youtube.com/shorts/K3CI4S2Td2U?feature=share 
+
 ## Notes
 
 App is built using the MVVM Architecture, Single activity, and in general the way the data flows is as follows: UI -> Repository -> Data (Network sources). UI only knows about repository and repository only knows about data.

@@ -70,15 +70,6 @@ class AppointmentsViewModel @Inject constructor(
         }
     }
 
-//    private fun List<Appointment>.toUpcomingAndPastAppointments(): Pair<List<Appointment>, List<Appointment>> {
-//        val now = ZonedDateTime.now()
-//        val (upcomingRaw, pastRaw) = partition { it.end.isAfter(now) } // end > now => upcoming
-//        val upcoming = upcomingRaw.sortedBy { it.start }
-//        val past = pastRaw.sortedByDescending { it.start }
-//        return upcoming to past
-//    }
-
-
     private fun List<Appointment>.toUpcomingAndPastAppointments(
         userZone: ZoneId = ZoneId.systemDefault()
     ): Pair<List<AppointmentUiItem>, List<AppointmentUiItem>> {
@@ -131,7 +122,6 @@ class AppointmentsViewModel @Inject constructor(
 data class AppointmentsUiState(
     val upcomingAppointments: ObservableData<List<AppointmentUiItem>> = ObservableData.Loading,
     val pastAppointments: ObservableData<List<AppointmentUiItem>> = ObservableData.Loading,
-//    val tabSelected: Int = 0
 ) {
 
     val isLoading: Boolean get() = upcomingAppointments == ObservableData.Loading ||
