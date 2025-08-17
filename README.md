@@ -6,7 +6,7 @@ A small Android app that implements login and an appointments experience using J
 
 ## Demo
 
-<!-- <video src="demo/demo.mov" controls width="640"></video> -->
+Url: https://youtube.com/shorts/qukpkg2nLOk?feature=share
 
 ## Notes
 
