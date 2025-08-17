@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">FayProject</string>
+
+    <string name="fay">Fay</string>
+
+    <string name="appointments">Appointments</string>
+    <string name="chat">Chat</string>
+    <string name="journal">Journal</string>
+    <string name="profile">Profile</string>
+
+    <string name="username">Username</string>
+    <string name="username_hint">Enter Username</string>
+    <string name="password">Password</string>
+    <string name="password_hint">Enter password</string>
+    <string name="username_blank_error">Username cannot be blank.</string>
+    <string name="password_blank_error">Password cannot be blank.</string>
+    <string name="login_generic_error">Username or Password is invalid.</string>
+    <string name="password_hide_button_desc">Hide password</string>
+    <string name="password_show_button_desc">Profile</string>
+
+    <string name="new_text">New</string>
+    <string name="new_appointment">New Appointment</string>
+
+    <string name="upcoming">Upcoming</string>
+    <string name="past">Past</string>
+
+    <string name="login">Log in</string>
+
+    <string name="generic_error_title">Unexpected Error Occurred</string>
+    <string name="generic_error_body">Please try again.</string>
+    <string name="generic_error_retry">Retry</string>
+    <string name="join_appointment">Join appointment</string>
+
+</resources>
